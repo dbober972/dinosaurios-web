@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header_fijo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.encabezado {
+    height: 150px;
+    background: url(../img/Titanoboa.png);
+
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 80px;
+}
+
+nav a {
+
+
+    margin: 2px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+main {
+    margin-top: 160px;
+    padding: 20px;
+}
+
+
+.noticias {
+    padding: 10px;
+    display: flex;
+    column-gap: 20px;
+    columns: 250px;
+
+}
+
+article {
+    margin: 0 auto;
+}
+
+.tituloh2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.img1 {
+    width: 350px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+
+
+
+.caja {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    width: 350px;
+    height: 150px;
+    background: #f7f7f7;
+    border: 1px solid #e3e3e3;
+    border-radius: 25px;
+}
