@@ -112,8 +112,44 @@ footer {
     line-height: 1.4;
     padding: 20px;
     width: 1200px;
-    height: 350px;
+    height: 600px;
     background: #f7f7f7;
     border: 1px solid #e3e3e3;
     border-radius: 25px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.foto_sobre_mi {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px grey;
+    margin-right: 20px;
+}
+
+.nombre_sobre_mi {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.texto_sobre_mi {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 650px;
+}
+
+.texto_sobre_mi h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
