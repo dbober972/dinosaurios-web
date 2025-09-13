@@ -104,3 +104,16 @@ footer {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
+/* Estilos para la página "Sobre mí" */
+.caja_sobre_mi {
+    text-align: center;
+    margin: 0px;
+    line-height: 1.4;
+    padding: 20px;
+    width: 1200px;
+    height: 350px;
+    background: #f7f7f7;
+    border: 1px solid #e3e3e3;
+    border-radius: 25px;
+}
